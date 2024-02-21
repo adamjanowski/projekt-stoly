@@ -4,7 +4,8 @@
 > ~~- Creating my own system from scratch.~~
 > ~~- Creating application using my system.~~
 > ~~- Bilingual documentation and application.~~
-# projekt-7
+> ~~projekt-7~~
+# projekt-stoły
 ## Cele
 - Tworzenie własnego systemu od zera.
   - Stworzyć system zarządzania zasobami.
