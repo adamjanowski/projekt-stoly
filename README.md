@@ -40,7 +40,7 @@
  
 ### System - stan obecny.
 - Kilka implementacji - luźno i niedbale w kilku różnych nieudokumentowanych projektach.
-  - Logowanie do strony - projekt stoły, strona 9, projekt SAJ, biblioteka.
+  - Logowanie do strony - [projekt stoły](https://projektstoly.pl/saturas.php) , strona 9, projekt SAJ, biblioteka.
     - SQL - Tworzenie tabel, dodawanie rekordów.
     - PHP - Tworzenie połączenia z bazą danych. Tworzenie zapytań SQL jako kodu PHP wykonywanego przez obiekt połączenia z bazą - mysqli. Obsługa formularza.
     - HTML - Tworzenie formularza logowania. Tworzenie wyglądu i struktury strony.
