@@ -27,9 +27,9 @@
     > Obiekty odpowiedzialne za logowanie wydarzeń w rejestrze - instancje klas, których metody: łączą się z bazą danych, umieszczają odpowiednie rekordy w tabeli rejestr, zamykają połączenie.
     > Rejestr jest na bieżąco aktualizowany. Nie mam jeszcze spójnej koncepcji, jedynie wstępną implementację.
     > Wpisy rejestru jako źródło statystyk konta użytkownika.
-  - Aplikacja umożliwia komunikację między użytkownikami.
+  - Aplikacja umożliwi komunikację między użytkownikami.
     > Konto użytkownika posiada prywatny obiekt zawierający historię konwersacji, umożliwiający ponadto komunikację z użytkownikami w systemie. Historia konwersacji jest prywatna - jawna tylko między użytkownikami odbiorcy i nadawcy, zapisywana przez obiekt klasy pokrewnej klasie prowadzącej rejestr (albo odwrotnie, albo dziedzicząca, tego jeszcze nie wiem). Wiadomości same w sobie będą obiektami, tworzonymi wewnątrz obiektu zawierającego historię konwersacji, istniejącymi wyłącznie w zakresie tego obiektu.
-  - Aplikacja umożliwia zarządzanie dokumentacją, archiwizację plików i pomaga w tworzeniu spójnych zasobów.
+  - Aplikacja umożliwi zarządzanie dokumentacją, archiwizację plików i pomaga w tworzeniu spójnych zasobów.
     > To jest moja urojona koncepcja, snucie fantazji o możliwościach tego systemu. Problem polega na tym, że mam naprawdę ogromną liczbę plików, różnych. I od jakiegoś czasu moim celem jest znalezienie jak najlepszej metody na ogarnięcie tego bałaganu. Nie wiem jeszcze w jaki sposób, ale będę próbował do momentu aż znajdę ten jeden właściwy. No i oczywiście zrealizuję go w ramach tego projektu. A przynajmniej mam taką nadzieję.
   - Aplikacja umożliwi pracę z kalendarzem.
     > Kalendarz systemu będzie napisany niemalże od zera. Chodzi przede wszystkim o to, by wszystko było spójne wewnątrz systemu, wynikało z jasno wykonanych wyliczeń i nie było wykonane nieudolnie (tak jak ma to miejsce w implementacjach z którymi miałem do czynienia, przy okazji pracy z systemami HR w korporacji, o Excelu nie wspominając bo to jakiś żart). Mam w głowie pewną koncepcję, której szczegóły zostawię dla siebie, bo jednak spędziłem nad tym zdecydowanie zbyt dużo godzin.
